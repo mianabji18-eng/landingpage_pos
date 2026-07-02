@@ -104,7 +104,7 @@ export default function Navbar() {
                   )}
                   <a
                     href={link.href}
-                    onClick={(e) => {
+                    onClick={() => {
                       isClicking.current = true;
                       setActiveLink(link.href);
                       setTimeout(() => {
